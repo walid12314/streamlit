@@ -1,0 +1,25 @@
+# Mall Customers EDA Web App
+
+## Introduction
+
+This web app allows users to perform basic exploratory data analysis (EDA) on a dataset named "Mall-customers." Users can upload the dataset, and the app provides various options for visualizing the data through different types of plots.
+
+## Features
+
+- Upload a dataset named "Mall-customers" (in CSV format).
+- Display the dataset's basic statistics and structure.
+- Visualize the data using various plot types, including histograms, scatter plots, box plots, and pair plots.
+
+## Requirements
+
+To run the web app, ensure you have the following installed:
+
+- Python 3.x
+- Streamlit library
+- Pandas library
+- Matplotlib library
+- Seaborn library
+
+You can install the necessary libraries using the following commands:
+
+pip install streamlit python pandas matplotlib seaborn
