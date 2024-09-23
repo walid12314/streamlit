@@ -8,7 +8,7 @@ import numpy as np
 st.title("Simple Data Analysis Web App")
 
 # File upload
-uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
+uploaded_file = st.file_uploader("Mall_Customers", type="csv")
 
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
